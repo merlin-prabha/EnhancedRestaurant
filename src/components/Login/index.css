@@ -1,0 +1,66 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  background-image: url('https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background-perspective-brown-wood-table-blur-coffee-shop-background-panoramic-banner-can-be-used-mock-up-montage-products-display-design_1253-1136.jpg?w=1380');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: 'Roboto';
+}
+.login-container {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #322d2bf6;
+  align-self: center;
+}
+.para {
+  align-self: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: transparent;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+.submit-btn {
+  background-color: #6353f1f6;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  align-self: center;
+}
+.error-msg {
+  color: red;
+}
